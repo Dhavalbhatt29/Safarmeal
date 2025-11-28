@@ -8,8 +8,7 @@ import { useSelector } from 'react-redux';
 import FoodCard from './FoodCard';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { serverUrl } from '../App';
-
+import { serverUrl } from '../config/server';
 function UserDashboard() {
   const {currentCity,shopInMyCity,itemsInMyCity,searchItems}=useSelector(state=>state.user)
   const cateScrollRef=useRef()

@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../components/Nav.jsx'
 import { useSelector } from 'react-redux'
 import axios from 'axios'
-import { serverUrl } from '../App'
+import { serverUrl } from '../config/server';
 import { useEffect } from 'react'
 import { useState } from 'react'
 import DeliveryBoyTracking from './DeliveryBoyTracking'

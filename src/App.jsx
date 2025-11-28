@@ -25,7 +25,7 @@ import { useEffect } from "react";
 import { io } from "socket.io-client";
 import { setSocket } from "./redux/userSlice";
 
-import { serverUrl, socketUrl } from "./config/server";
+import { serverUrl, socketUrl } from "./config/server.js";
 
 function App() {
   const { userData } = useSelector((state) => state.user);

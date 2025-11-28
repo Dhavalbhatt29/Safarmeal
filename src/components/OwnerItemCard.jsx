@@ -3,7 +3,7 @@ import React from 'react'
 import { FaPen } from "react-icons/fa";
 import { FaTrashAlt } from "react-icons/fa";
 import { useNavigate } from 'react-router';
-import { serverUrl } from '../App';
+import { serverUrl } from '../config/server';
 import { useDispatch } from 'react-redux';
 import { setMyShopData } from '../redux/ownerSlice';
 function OwnerItemCard({data}) {

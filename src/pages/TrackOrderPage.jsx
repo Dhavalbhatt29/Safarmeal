@@ -1,7 +1,8 @@
 import axios from 'axios'
 import React from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import { serverUrl } from '../App'
+import { serverUrl } from '../config/server';
+
 import { useEffect } from 'react'
 import { useState } from 'react'
 import { IoIosArrowRoundBack } from "react-icons/io";
