@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Nav from './nav.jsx'
+import Nav from './Nav.jsx'
 import { categories } from '../category'
 import CategoryCard from './CategoryCard'
 import { FaCircleChevronLeft } from "react-icons/fa6";
